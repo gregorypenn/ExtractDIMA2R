@@ -15,3 +15,7 @@ A list of dataframes, each with the name and contents of a DIMA table.
 \description{
 Extract DIMA tables for the BLM's Carlsbad Field Office
 }
+\details{
+The names of DIMA tables extracted are stored in the character vector
+`CFO_tables`, which is exported from this package.
+}
