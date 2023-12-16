@@ -1,0 +1,19 @@
+Package: ExtractDima2R
+Type: Package
+Title: Extract DIMA Database to Dataframes
+Version: 0.1.0
+Author: Gregory Penn
+Maintainer: Gregory Penn <gregory@crediblecorvid.com>
+Description: A narrowly focused package for extracting data from a DIMA database
+    to dataframes. This only works on Windows, due to unavailability of a MS Access
+    driver on other systems. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    magrittr,
+    rlang,
+    RODBC,
+    utils
