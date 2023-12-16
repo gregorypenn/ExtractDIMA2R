@@ -10,10 +10,10 @@
 #' @export
 #'
 #' @examples
-query_table_SQL("TableName", "Column_A")
-query_table_SQL("TableName", c("ID", "Column_A"))
-query_table_SQL("TableName", "Column_A, Column_B")
-query_table_SQL("TableName", c("Column_A"), condition = "some condition")
+#' query_table_SQL("TableName", "Column_A")
+#' query_table_SQL("TableName", c("ID", "Column_A"))
+#' query_table_SQL("TableName", "Column_A, Column_B")
+#' query_table_SQL("TableName", c("Column_A"), condition = "some condition")
 
 query_table_SQL <- function (table, cols = "*", condition = NULL) {
   cols <- ifelse(length(cols) > 1, paste(cols, collapse = ", "), cols)
