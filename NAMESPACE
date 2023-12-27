@@ -2,7 +2,7 @@
 
 export("%>%")
 export(extract_CFO_tables)
-export(extract_dima)
+export(extract_dima_tables)
 export(query_dima)
 export(query_table_SQL)
 importFrom(magrittr,"%>%")

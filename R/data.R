@@ -6,6 +6,6 @@
 
 #' Names of all DIMA tables
 #'
-#' @format ## `DIMA_tables`
-#' A character vector with names of 152 DIMA tables.
-"DIMA_tables"
+#' @format ## `DIMA_tablenames`
+#' A character vector with names of all 154 tables in DIMA 5.6.
+"DIMA_tablenames"

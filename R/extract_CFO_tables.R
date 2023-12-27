@@ -9,7 +9,7 @@
 #' @return A list of dataframes, each with the name and contents of a DIMA table.
 #' @export
 extract_CFO_tables <- function (dima) {
-  tables <- CFO_tables
+  tables <- ExtractDima2R::CFO_tables
   query <- purrr::map(tables, query_table_SQL)
   names(query) <- tables
   return(query_dima(dima, query))
