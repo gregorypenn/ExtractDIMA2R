@@ -155,3 +155,5 @@ DIMA_tablenames <- c(
   "tblVegStructDetail",
   "tblVegStructHeader"
 )
+
+usethis::use_data(DIMA_tablenames, overwrite = TRUE)
