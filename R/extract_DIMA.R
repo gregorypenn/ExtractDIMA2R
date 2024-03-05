@@ -9,6 +9,9 @@
 #' @return A named list of dataframes, each representing a table in DIMA.
 #' @export
 extract_DIMA <- function(path, empty_tables = FALSE) {
+  if(!file.exists(path)) {
+    stop("Error: DIMA file not found!")
+  }
   query_list <- vector("character", length(DIMA_tablenames))
   for (i in seq_along(DIMA_tablenames)) {
     query_list[i] <- query_table_SQL(DIMA_tablenames[i])
