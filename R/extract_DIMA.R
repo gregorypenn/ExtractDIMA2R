@@ -22,5 +22,5 @@ extract_DIMA <- function(path, empty_tables = FALSE) {
     results <- results[has_data]
   }
 
-  return(query_list)
+  return(results)
 }
