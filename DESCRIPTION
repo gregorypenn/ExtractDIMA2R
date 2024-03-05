@@ -5,8 +5,8 @@ Version: 0.1.0
 Author: Gregory Penn
 Maintainer: Gregory Penn <gregory@crediblecorvid.com>
 Description: A narrowly focused package for extracting data from a DIMA database
-    to dataframes. This only works on Windows, due to unavailability of a MS Access
-    driver on other systems. 
+    to a list of dataframes. This only works on Windows, due to unavailability of a MS Access
+    driver on other systems.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
